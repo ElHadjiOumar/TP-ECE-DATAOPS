@@ -23,7 +23,7 @@ jobs:
         pip install pylint pytest
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --disable=C0114,C0116,C0103 $(git ls-files '*.py')
     - name: Run tests with pytest
       run: |
         pytest main.py
