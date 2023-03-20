@@ -1,6 +1,9 @@
-def inc(x):
-    return x + 1
+"""Example module demonstrating a simple increment function and its test."""
 
+def increment(value):
+    """Increment the given value by 1."""
+    return value + 1
 
 def test_answer():
-    assert inc(4) == 5
+    """Test if the increment function works as expected."""
+    assert increment(3) == 4
