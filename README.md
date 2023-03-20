@@ -23,3 +23,5 @@ Les étapes du TP sont :
 - Sur votre machine, via la commande "git" sur un terminal.
 - Bonus.
 
+La commande à lancer est : `python main.py`
+
